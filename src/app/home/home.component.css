@@ -1,0 +1,485 @@
+* {
+  box-sizing: border-box;
+}
+.picture-logo {
+  display: flex;
+}
+.site-logo {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+}
+
+.user-bar-container {
+  padding: 10px 40px 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-nav-button {
+  display: inherit;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: right;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 28px;
+  font-family: Bangers;
+  padding: 0 20px;
+}
+a:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+/* ---BIG IMG--- */
+
+.big-img {
+  background-image: url("https://scontent.fomr1-1.fna.fbcdn.net/v/t31.0-8/22538772_778372969013053_4324718065101455893_o.jpg?_nc_cat=109&_nc_sid=e3f864&_nc_ohc=A9wS4FWyRYkAX_7IrBT&_nc_ht=scontent.fomr1-1.fna&oh=8df832f4896ded5dfd684962dff6f0ef&oe=5F531347");
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+}
+.big-img .text {
+  font-size: 90px;
+  letter-spacing: 10px;
+  font-family: Bangers;
+  color: white;
+  text-align: right;
+  display: inherit;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 0 0 30%;
+  margin: 0 20%;
+}
+
+.big-img button {
+  width: 184px;
+  min-width: 184px;
+  height: 62px;
+  background-color: #6b8730;
+  color: white;
+  border-style: none;
+  font-size: 24px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: block;
+  margin-left: 30%;
+  border-radius: 3%;
+}
+
+.big-img button:hover {
+  background-color: rgb(58, 143, 58);
+}
+
+/* PART 3  */
+
+.blank-space {
+  width: 100%;
+  height: 1005px;
+}
+
+.blank-space .text {
+  width: 100%;
+  display: flex;
+  font-family: Francois One;
+  color: black;
+  font-size: 48px;
+}
+#text1 {
+  padding: 20px 0 10px 0;
+  margin: auto;
+}
+
+.icon-text-container {
+  display: flex;
+}
+
+.icon-text-container .wrapper {
+  display: inherit;
+  justify-content: center;
+  margin: auto;
+}
+
+.logo-text {
+  display: inherit;
+  width: 23%;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 1%;
+  align-items: center;
+}
+.logo-text span {
+  width: 100%;
+  display: inherit;
+  margin: 35px 0 15px 0;
+}
+
+.logo-text i {
+  font-size: 80px;
+  display: inherit;
+  color: #6b8730;
+  margin: auto;
+}
+
+.logo-text i:hover {
+  color: rgb(221, 155, 33);
+}
+
+.logo-text h1 {
+  display: inherit;
+  font-size: 24px;
+  font-family: "Francois One";
+  text-align: center;
+}
+
+.second-text {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  padding-bottom: 30px;
+  line-height: 150%;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 48px;
+  font-family: "Francois One";
+  padding: 20px 0 0 5px;
+}
+.text-utitle {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 25px 0;
+}
+.text-utitle2 {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 25px 0;
+}
+
+.button {
+  width: 100%;
+  text-align: center;
+  padding: 25px 0 100px 0;
+}
+
+.button button {
+  font-size: 20px;
+  line-height: 20px;
+  border: 1px solid #6b8730;
+  border-radius: 2px;
+  background-color: #6b8730;
+  color: white;
+  padding-top: 18px;
+  padding-right: 36px;
+  padding-bottom: 18px;
+  padding-left: 36px;
+}
+.button button:hover {
+  cursor: pointer;
+}
+
+.brand-img {
+  width: 100%;
+}
+.brand-img .img-wrapper {
+  display: flex;
+}
+.img-wrapper .img-wrapper-img {
+  display: inherit;
+  justify-content: center;
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+  margin: auto;
+}
+
+/* ---PART 4--- */
+.big-img2 {
+  background-image: url("https://www.sidehustlenation.com/wp-content/uploads/2017/11/listen-to-the-side-hustle-show-2.jpg");
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+}
+.big-img2 .text {
+  display: inherit;
+  width: 70%;
+  margin: auto;
+}
+
+.text .wrapper {
+  width: 40%;
+}
+
+.text h1 {
+  font-size: 48px;
+  font-family: "Francois One";
+}
+
+.text p {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* ---BLANK--- */
+
+.blank {
+  width: 100%;
+  height: 80px;
+}
+
+/* ---PART 5--- */
+
+.big-img3 {
+  background-size: 100% 700px;
+  background-image: url("https://www.sidehustlenation.com/wp-content/uploads/2017/11/the-side-hustle-nation-blog-2.jpg");
+  /* background-image: linear-gradient(to bottom, transparent 0%, white 100%); */
+  height: 700px;
+  background-position: center;
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+  position: relative;
+  display: flex;
+}
+
+.big-img3 .inner-text {
+  display: inherit;
+  margin-left: 50%;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.inner-text h1 {
+  font-size: 48px;
+  font-family: "Francois One";
+}
+li {
+  list-style: none;
+}
+
+.inner-text li {
+  font-size: 32px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+li span {
+  color: #6b8730;
+}
+
+/* ---PART 6--- */
+
+.text-input {
+  width: 100%;
+  height: 310px;
+}
+.text-input .input {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+.text-input .inner-text {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  font-family: "Francois One";
+  padding: 5px 0;
+}
+.text-input .container {
+  padding-top: 40px;
+}
+.text-input .input {
+  padding-top: 40px;
+}
+.text-input input {
+  width: 20%;
+  padding: 12px 24px;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: #666666;
+  background-color: #fafafa;
+  border-color: #cccccc;
+  font-family: Georgia, Times New Roman, Times, serif;
+  margin-right: 10px;
+}
+.text-input button {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  font-size: 20px;
+  line-height: 20px;
+  border: 1px solid #6b8730;
+  border-radius: 4px;
+  background-color: #77933c;
+  width: 20%;
+  padding: 7px 90px;
+  cursor: pointer;
+}
+
+.quotes {
+  display: flex;
+  width: 60%;
+  height: 214px;
+  margin: auto;
+}
+
+.quotes .text {
+  width: 33.33%;
+  margin: auto;
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.quotes .text .first {
+  font-style: italic;
+}
+
+.quotes .text .second {
+  padding-top: 20px;
+  padding-left: 12%;
+}
+
+/* ---PART 7--- */
+.still-scrolling {
+  width: 100%;
+  height: 403px;
+  background-color: rgb(155, 154, 154);
+}
+
+.still-scrolling .text1 {
+  padding: 80px 0 20px 0;
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  color: #ffffff;
+  font-family: "Francois One";
+}
+
+.still-scrolling .text2 {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 48px;
+  font-family: "Francois One";
+  /* padding-bottom: 25px; */
+}
+
+.still-scrolling .butt {
+  width: 100%;
+  text-align: center;
+  padding: 60px 0 65px 0;
+}
+.still-scrolling button {
+  font-size: 20px;
+  line-height: 20px;
+  border: 1px solid #6b8730;
+  border-radius: 2px;
+  background-color: #6b8730;
+  color: white;
+  padding-top: 18px;
+  padding-right: 36px;
+  padding-bottom: 18px;
+  padding-left: 36px;
+  cursor: pointer;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* ---PART 8--- */
+.social-media-logo {
+  width: 100%;
+  height: 420px;
+}
+
+.social-media-logo .text {
+  font-size: 30px;
+  font-family: "Francois One";
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-media-logo .images {
+  padding-top: 25px;
+  width: 33.33%;
+  display: flex;
+  margin: auto;
+}
+
+.social-media-logo img {
+  margin: auto;
+  cursor: pointer;
+}
+
+.social-media-logo .images2 {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  width: 33.33%;
+  display: flex;
+  margin: auto;
+}
+
+/* ---PART 9--- */
+.last-list {
+  width: 100%;
+  height: 140px;
+  background-color: rgba(119, 147, 60, 0.8);
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  font-family: Georgia, Times New Roman, Times, serif;
+}
+
+.last-list .items {
+  display: flex;
+  width: 50%;
+  margin: auto;
+}
+
+.last-list .items div {
+  padding-top: 55px;
+  margin: auto;
+  cursor: pointer;
+}
+
+/* ---PART 10--- */
+.footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 57px;
+  color: #ffffff;
+  background-color: #222222;
+  font-size: 15px;
+}
+.footer .copy-right {
+  padding-left: 30px;
+  width: 50%;
+  align-items: center;
+}
+
+.footer .final-list {
+  display: flex;
+  padding-left: 220px;
+}
+
+.footer .final-list p {
+  padding-right: 5px;
+  cursor: pointer;
+}
